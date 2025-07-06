@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body class="font bg">
+    <!-- header + burgerbar ert divshi -->
+
+    <header class="mainheader">
+        <div class="childheader">
+            <a href="#"><img src="logo/Logo.png" alt=""></a>
+            <nav class="mainnav">
+                <ul class="mainul">
+                    <li><a class="homeh" href="#">HOME</a></li>
+                    <li><a class="coursesh" href="#">COURSES</a></li>
+                    <li><a class="instructorsh" href="#">INSTRUCTORS</a></li>
+                    <li><a class="schedulesh" href="#">SCHEDULES</a></li>
+                </ul>
+            </nav>
+
+    <!-- burgerbar -->
+            <div id="burgerbarmain" class="burgerbarmain">
+                <div class="line line1"></div>
+                <div class="line"></div>
+                <div class="line line3"></div>                
+            </div>
+        </div>       
+    </header>
+
+  <!-- section 1 -->
+    <section>
+        <div class="teqsti">
+            <h1 class="cate">Choose favourite course from top cartegories</h1>
+        </div>
+
+        <div class="mainmain">
+            <div class="childmain">
+                <img class="image" src="img/1.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain">
+                <img class="image" src="img/2.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain">
+                <img class="image" src="img/3.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+
+        </div>
+     </section>
+     
+       <!-- section 2 -->
+    <section class="sec2">
+        <div class="teqsti2">
+            <h1 class="cate">Most Popular courses</h1>
+        </div>
+
+        <div class="mainmain2">
+            <div class="childmain2">
+                <img class="image" src="img/11.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain2">
+                <img class="image" src="img/22.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain2">
+                <img class="image" src="img/33.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain2">
+                <img class="image" src="img/44.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain2">
+                <img class="image" src="img/55.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+            <!-- section 3 -->
+    <section class="sec2">
+        <div class="teqsti3">
+            <h1 class="cate">Learn a new skill in two hours</h1>
+        </div>
+
+        <div class="mainmain2">
+            <div class="childmain2">
+                <img class="image" src="img/St.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain2">
+                <img class="image" src="img/Hc.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain2">
+                <img class="image" src="img/Dv.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+
+        </div>
+     </section>
+     
+            <!-- section 4 -->
+    <section class="sec2">
+        <div class="teqsti resptxt">
+            <h1 class="cate">Meet our instructors</h1>
+        </div>
+
+        <div class="mainmain3">
+            <div class="childmain3">
+                <img class="image" src="img/ins1.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain3">
+                <img class="image" src="img/ins2.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain3">
+                <img class="image" src="img/ins3.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+                 <!-- section 5 -->
+    <section class="sec2">
+        <div class="teqsti">
+            <h1 class="cate">Reviews</h1>
+        </div>
+
+        <div class="mainmain3">
+            <div class="childmain3">
+                <img class="image" src="img/Wh.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain3">
+                <img class="image" src="img/Mh.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+            <div class="childmain3">
+                <img class="image" src="img/mh.png" alt="">
+                <div class="button">
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+                <!-- სერვერიდან ინფორმაცია - (get methods) --> 
+    <section>
+      <h1 class="teqsti">Some of our students</h1>
+      <div id="api"></div>  
+        <ul id="ul-list"></ul>
+      </div>
+    </section>
+
+    <!-- form --> 
+         <section>
+            <h1 class="ffm">Register</h1>
+      <form action="" id="registration">
+        <div>
+          <input
+            type="text"
+            name="username"
+            id="usernamefield"
+            placeholder="Username..."
+          />
+          <p class="error-text" id="error-username"></p>
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password"
+            id="passwordfield"
+            placeholder="Password"
+          />
+          <p class="error-text" id="error-password"></p>
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password2"
+            id="passwordfield2"
+            placeholder="Repeat Password"
+          />
+          <p class="error-text" id="error-password2"></p>
+        </div>
+        <div>
+          <input type="email" id="email" name="emailfield" placeholder="Email" />
+          <p id="email-error"></p>
+        </div>
+
+        <div>
+          <input class="input-el" type="radio" name="gender" id="female" />
+          <label for="">Female</label>
+          <input class="input-el" type="radio" name="gender" id="male" />
+          <label for="">Male</label>
+          <p class="error-text" id="error-gender"></p>
+        </div>
+
+        <div>
+          <input type="checkbox" name="agree" id="check" />
+          <label for="">I agree Terms and Conditions</label>
+          <p class="error-text" id="error-agree"></p>
+        </div>
+
+        <button id="submit-btn">Register</button>
+      </form>
+    </section>
+
+      <!-- Cookies Notification -->
+  <div class="cookie-banner" id="cookieBanner">
+    <p>Cookies</p>
+    <button id="acceptCookies">Accept</button>
+  </div>
+ 
+  <!-- scroll to top -->
+   <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">⬆</button>
+
+
+</body>
+</html>   
